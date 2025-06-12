@@ -39,3 +39,21 @@ Open your terminal and run:
 ```bash
 mongosh
 ```
+Switch to the target database:
+use plp_bookstore
+
+
+### 3. Populate the Database
+Run the following command in your terminal :
+mongosh < insert_books.js
+
+### 4. Run All Queries
+To execute all the queries in queries.js, run:
+mongosh < queries.js
+
+This will perform all the required queries as per the assignment: basic and advanced operations, aggregation pipelines, and indexing.
+
+
+
+
+
